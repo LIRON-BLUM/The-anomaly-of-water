@@ -1,0 +1,239 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+
+body {
+    direction: rtl;
+    overflow-x: hidden;
+    width: 1280px; 
+    margin: 0 auto;
+}
+
+#container {
+   
+    padding-top: 40px;
+    font-family: 'Rubik', sans-serif;
+    background-color: #f7f7f7;
+}
+
+p {
+    font-family: 'Rubik', regular;
+    text-align: justify;
+    line-height: 1.8;
+    font-size:16px;
+}
+
+#black {
+    background-color: black;
+    height: 60px;
+    width: 10px;
+    display: inline block;
+    float: right;
+    margin-left: 20px;
+}
+
+#main_healine {
+    background-color: #489D8A;
+    height: 60px;
+    margin-top: 60px;
+    margin-right:140px;
+    margin:60px, 120px, 60px, 140px;
+    width: 1000px;
+    display: inline block;
+}
+
+h1 {
+    color: white;
+    font-family: 'Rubik', bold;
+    font-size: 30pt;
+    padding: 10px;
+    display: inline block;
+}
+
+/*--------------------------------פתיח*/
+header {
+    height: 400px;
+}
+
+#moving_cubes {
+    position: relative;
+    right: 850px;
+    bottom: 170px;
+}
+
+#water_glass {
+    width: 300px;
+    display: inline;
+    position: relative;
+}
+
+#ice_cubes {
+    width: 150px;
+    display: inline;
+    position: relative;
+    left: 230px;
+    bottom: 160px;
+    transition: all 1s;
+}
+
+    #ice_cubes:hover {
+        position: relative;
+        bottom: 120px;
+    }
+
+#moving_cubes p {
+    position: relative;
+    right:80px;
+}
+
+#main_unit {
+    background: #cacaca;
+    width: 600px;
+    height: 100px;
+    border-radius: 25px;
+    padding: 50px;
+    position: relative;
+    right: 150px;
+    top: 80px;
+}
+
+#header_book {
+    width: 100px;
+    display: inline ;
+    position: relative;
+    right: 50px;
+    float:right;
+    
+}
+
+header div ul {
+    
+    display: inline ;
+    position: relative;
+    right: 130px;
+    top: 20px;
+}
+
+    header div ul li {
+        font-family: 'Rubik', regular;
+        font-size: 14pt;
+        margin-top:10px;
+    }
+
+header div h4 {
+    font-family: 'Rubik', bold;
+    font-size: 16pt;
+    display: inline ;
+    position: relative;
+    right: 130px;
+}
+
+
+section {
+    width: 800px;
+    position:relative;
+    right:200px;
+    padding-top:50px;
+}
+
+h2 {
+    font-family: 'Rubik', semi-bold;
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Rubik', semi-bold;
+    font-size: 18pt;
+    margin-bottom: 20px;
+}
+
+#oil_water {
+    width: 150px;
+    display: inline;
+    position: relative;
+    float: right;
+    margin-left: 60px;
+   
+}
+
+ ol li {
+    font-family: 'Rubik', regular;
+    font-size: 14pt;
+    line-height: 1.8;
+}
+
+
+#observation_1 {
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+div#observation_1 ol {
+    position: relative;
+    right:40px;
+}
+
+
+
+
+#observation_1 p {
+position:relative;
+left:210px;
+top:270px;
+font-size:11pt;
+
+}
+
+#observation_2 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+a{
+    color:hotpink;
+    transition: background-color 1s;
+}
+
+a:hover {
+    background-color:#00108b;
+    color:white;
+    
+}
+
+#ice_glass{
+    float:right;
+    width:200px;
+    /*position:relative;
+    top:100px;
+    display:inline-block;*/
+    margin-left: 30px;
+
+}
+
+#last_sec p {
+    margin-bottom:30px;
+    clear:left;
+
+}
+
+h5 {
+    color: #489D8A;
+    font-family: 'Rubik', bold;
+    font-size: 20pt;
+    text-align:center;
+}
+
+#last_sentace {
+    margin-top: 30px;
+    text-align: center;
+}
+
+section iframe{
+    position:relative;
+    right:110px;
+    margin-bottom:50px;
+}
+
+
+
+
